@@ -46,16 +46,16 @@ export default function QuizForm() {
 
             <p>Kysymys lisätty: {questions.length}</p>
 
-            {isPlayVisible ? (
+            {isPlayVisible && (
                 <button onClick={playQuiz}>Pelaa</button>
-            ) : null}
+            )}
 
-            {currentQuestion ? (
+            {currentQuestion && (
                 <div className="current-question">
                     <h2>Satunnainen kysymys</h2>
                     <p>{currentQuestion.text}</p>
                 </div>
-            ) : null}
+            )}
 
         </div>
     );
