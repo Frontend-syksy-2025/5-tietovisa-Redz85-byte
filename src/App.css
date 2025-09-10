@@ -1,0 +1,19 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  text-align: center;       
+}
+
+.quiz-form input,
+.quiz-form button {
+  width: 200px;             
+  padding: 4px;
+}
